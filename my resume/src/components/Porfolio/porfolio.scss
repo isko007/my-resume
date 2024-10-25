@@ -1,0 +1,53 @@
+// .Porfolio_container{
+//     width: 1000px;
+// }
+.Porfolio_about_containeror{
+    background-color: #fff;
+    text-align: center;
+    margin: 0 40px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    ul{
+        padding: 10px 20px;  
+        list-style: none;
+        li{
+            font-family: "ABeeZee";
+            span{
+                color: black;
+                font-weight: bold;
+            }
+            h2{
+                font-size: 40px;
+                color: black;
+                span{
+                    // color: gold;
+                    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgO-PUps9aPIEABdAMkxKC2dcvhSZOnzZkhQ&s) 0 0 / cover no-repeat;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            p{
+                padding: 20px ;
+                font-size: 20px;
+                color: #6e6e6e;
+            }
+            .about_link{
+                margin: 40px 0 !important;
+                text-decoration: none;
+                color: black;
+                padding: 15px 40px;
+                background-color: gold;
+                font-family: "ABeeZee" !important;
+                border: none;
+                border-radius: 10px;
+                // background: url(https://decotvframes.com/cdn/shop/products/SA1035_w_650x.jpg?v=1637669731) 0 0 / cover no-repeat;
+                // // -webkit-background-clip: background;
+                // -webkit-b-fill-color: transparent;
+            }
+        }
+
+    }
+}

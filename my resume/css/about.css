@@ -1,0 +1,196 @@
+.About_container {
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px 30px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 2px !important;
+  height: 2px;
+}
+
+.About_list {
+  list-style: none;
+  text-align: center;
+}
+.About_list li {
+  padding: 5px 0;
+}
+.About_list li img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.About_list li h2 {
+  color: black;
+  font-family: "ABeeZee";
+}
+.About_list li p {
+  color: #6e6e6e;
+  font-family: "ABeeZee";
+}
+.About_list span {
+  display: block;
+  height: 1px;
+  background-color: #f1f1f1;
+  margin: 10px 0;
+}
+
+.About_list_web_programers {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.About_list_web_programers .about_iytem_link_desing i {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 5px !important;
+  border-radius: 50%;
+  background: gold;
+}
+.About_list_web_programers .about_iytem_link_desing :hover {
+  color: gold;
+  background: url(https://decotvframes.com/cdn/shop/products/SA1035_w_650x.jpg?v=1637669731) 0 0/cover no-repeat;
+  -webkit-b-fill-color: transparent;
+}
+
+.about_contac_list {
+  list-style: none;
+}
+.about_contac_list .about_contac_info_item {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  gap: 5px;
+  font-family: "ABeeZee";
+  font-size: 15px;
+}
+.about_contac_list .about_contac_info_item p {
+  background-color: gold;
+}
+.about_contac_list span {
+  display: block;
+  height: 1px;
+  background-color: #f1f1f1;
+  margin: 10px 0;
+}
+
+.Languages_list {
+  list-style: none;
+  font-family: "ABeeZee";
+}
+.Languages_list h1 {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 10px;
+}
+.Languages_list .Languages_item_100_prosent {
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gold;
+}
+.Languages_list .Languages_item_90_prosent {
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gold;
+  border-radius: 10px;
+  width: 90%;
+}
+.Languages_list .Languages_list_item_prozent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  padding: 4px 0;
+  font-size: 16px;
+}
+.Languages_list .span {
+  display: block;
+  height: 1px;
+  background-color: #f1f1f1;
+  margin: 16px 0 10px 0;
+}
+
+.Skills_list {
+  list-style: none;
+  font-family: "ABeeZee";
+}
+.Skills_list h1 {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 10px;
+}
+.Skills_list .Skills_item_95_prosent {
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gold;
+  width: 95%;
+}
+.Skills_list .Skills_item_90_prosent {
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gold;
+  border-radius: 10px;
+  width: 90%;
+}
+.Skills_list .Skills_item_85_prosent {
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gold;
+  width: 85%;
+}
+.Skills_list .Skills_item_80_prosent {
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gold;
+  width: 80%;
+}
+.Skills_list .Skills_item_75_prosent {
+  display: block;
+  height: 2px;
+  border-radius: 10px;
+  background-color: gold;
+  width: 75%;
+}
+.Skills_list .Skills_list_item_prozent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  padding: 4px 0;
+  font-size: 16px;
+}
+.Skills_list .span {
+  display: block;
+  height: 1px;
+  background-color: #f1f1f1;
+  margin: 16px 0 10px 0;
+}
+
+.Extra_skills_list {
+  list-style: none;
+  font-family: "ABeeZee";
+}
+.Extra_skills_list h1 {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 10px;
+}
+.Extra_skills_list .Extra_skills_list_item {
+  padding: 5px 0;
+}
+.Extra_skills_list .Extra_skills_list_item p {
+  color: black;
+}/*# sourceMappingURL=about.css.map */

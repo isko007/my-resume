@@ -1,0 +1,206 @@
+.About_container{
+    // width: 300px;    
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px 30px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 2px !important;
+    height: 2px;
+}
+// ::-webkit-scrollbar-thumb {
+//     border-radius: 5px; /*Закругление ползунка*/
+//     background-color: gold; /*Цвет ползунка*/
+//     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+//   }
+.About_list{
+    list-style: none;
+    text-align: center;
+    li{
+        img{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+        }
+        padding: 5px 0;
+        h2{
+            color: black;
+            font-family: "ABeeZee";
+        }
+        p{
+            color: #6e6e6e;
+            font-family: "ABeeZee";
+        }
+    }
+    span{
+        display: block;
+        height: 1px;
+        background-color: #f1f1f1;
+        // width: 300px;
+        margin: 10px 0;
+    }
+}
+.About_list_web_programers{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    // padding: 10px 0;
+    .about_iytem_link_desing{
+        i{
+            // transition: .2s ; 
+            color: black;   
+            display: flex;
+            align-items: center;
+            padding: 5px !important;
+            border-radius: 50%;
+            background: gold;
+        }
+        :hover{
+            // background: #000;
+            color: gold;
+            background: url(https://decotvframes.com/cdn/shop/products/SA1035_w_650x.jpg?v=1637669731) 0 0 / cover no-repeat;
+            // -webkit-background-clip: background;
+            -webkit-b-fill-color: transparent;
+        }
+    }
+}
+.about_contac_list{
+    list-style: none;
+    .about_contac_info_item{
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+        gap: 5px;
+        font-family: "ABeeZee";
+        font-size: 15px;
+        p{
+            background-color: gold;
+        }
+    }
+    span{
+        display: block;
+        height: 1px;
+        background-color: #f1f1f1;
+        // width: 300px;
+        margin: 10px 0;
+    }
+}
+.Languages_list{
+    list-style: none;
+    font-family: "ABeeZee";
+    h1{
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    .Languages_item_100_prosent{
+        display: block;
+        height: 2px;
+        border-radius: 10px;
+        background-color: gold;
+        // width: 100%;
+    }
+    .Languages_item_90_prosent{
+        display: block;
+        height: 2px;
+        border-radius: 10px;
+        background-color: gold;
+        border-radius: 10px;
+        width: 90%;
+    }
+    .Languages_list_item_prozent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+        padding: 4px 0;
+        font-size: 16px;
+    }
+    .span{
+        display: block;
+        height: 1px;
+        background-color: #f1f1f1;
+        // width: 300px;
+        margin: 16px 0 10px 0;
+    }
+}
+.Skills_list{
+    list-style: none;
+    font-family: "ABeeZee";
+    h1{
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    .Skills_item_95_prosent{
+        display: block;
+        height: 2px;
+        border-radius: 10px;
+        background-color: gold;
+        width: 95%;
+    }
+    .Skills_item_90_prosent{
+        display: block;
+        height: 2px;
+        border-radius: 10px;
+        background-color: gold;
+        border-radius: 10px;
+        width: 90%;
+    }
+    .Skills_item_85_prosent{
+        display: block;
+        height: 2px;
+        border-radius: 10px;
+        background-color: gold;
+        width: 85%;
+    }
+    .Skills_item_80_prosent{
+        display: block;
+        height: 2px;
+        border-radius: 10px;
+        background-color: gold;
+        width: 80%;
+    }
+    .Skills_item_75_prosent{
+        display: block;
+        height: 2px;
+        border-radius: 10px;
+        background-color: gold;
+        width: 75%;
+    }
+    .Skills_list_item_prozent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+        padding: 4px 0;
+        font-size: 16px;
+    }
+    .span{
+        display: block;
+        height: 1px;
+        background-color: #f1f1f1;
+        // width: 300px;
+        margin: 16px 0 10px 0;
+    }
+}
+.Extra_skills_list{
+    list-style: none;
+    font-family: "ABeeZee";
+    h1{
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    .Extra_skills_list_item{
+        padding: 5px 0;
+        p{
+            color: black;
+        }
+    }
+}
